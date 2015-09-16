@@ -1,4 +1,4 @@
-Developing Data Products - Course Project Pitch Presentation
+Developing Data Products Presentation
 ========================================================
 author: Moira Lennox
 date: September 2015
@@ -6,14 +6,17 @@ date: September 2015
 Reason For Presentation
 ========================================================
 
-This presentation is for my course project for the Coursera - Developing Data Products.
-The project required the development of basic R Shiny App. which is published to shinyapps.io. 
+<small>
+This presentation is for my course project for the Coursera Developing Data Products.
+The project required the development of basic R Shiny App. which is published to shinyapps.io.
 
-The project dataset used is the data wfrom the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models). This app focus on cylinders, Transmission and  Gears
+The project dataset used is the data from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models). This app focus on cylinders, Transmission and  Gears
+
 
 The Shiny App is accessible from here: https://len21.shinyapps.io/CarsApp
 
 Git Hub code link is accessible here: https://github.com/len21/DevelopingDataProducts
+</small>
 
 
 Dataset
@@ -26,13 +29,11 @@ str(mtcars)
 Application Screen Shot
 ========================================================
 
-
-![Screen Shot](CarAppSlide-figure/screenshot.tiff)
+![Screen Shot](CarAppSlide-figure/screenshot.png)
 
 
 How it works
 ========================================================
-
 
 * The user select one of the variables.
 * A boxplot shows the relationship of that variable to MPG.
